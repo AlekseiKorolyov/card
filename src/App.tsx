@@ -1,14 +1,37 @@
 
 import './App.css'
+import styled from "styled-components";
+import {StyledBtn} from "./components/Button.styled.tsx";
+import {myTheme} from "./styles/Theme.styled.tsx";
+import {StyledH1, StyledP} from "./styles/Styled.tsx";
 
 function App() {
 
-
   return (
     <>
-      "hello"
+      <Card>
+          <img src={"src/images/Rectangle.png"}  alt={"desert"}/>
+          <StyledH1>Headline</StyledH1>
+          <StyledP>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</StyledP>
+          <StyledBtn color={myTheme.colors.primary} btnType={"primary"}>See more</StyledBtn>
+          <StyledBtn btnType={"outlined"}>Save</StyledBtn>
+      </Card>
     </>
   )
 }
 
 export default App
+
+
+const Card = styled.button`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: none;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.1);
+    //gap: 20px;
+`
