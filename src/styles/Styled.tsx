@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 
 export const StyledH1 = styled.h1`
-    //width: 70px;
-    //height: 19px;
+    margin: 10px;
+    text-align: left;
     font-family: Inter;
     font-weight: 700;
     font-style: Bold;
@@ -17,16 +17,11 @@ export const StyledH1 = styled.h1`
 
 `
 
-export const StyledP = styled.p`
-    //width: 260;
-    //height: 40;
-    font-family: Inter;
+export const StyledP = styled(StyledH1)`
     font-weight: 500;
     font-style: Medium;
     font-size: 12px;
-    leading-trim: NONE;
     line-height: 20px;
-    letter-spacing: 0%;
     color: rgba(171, 179, 186, 1);
 
 

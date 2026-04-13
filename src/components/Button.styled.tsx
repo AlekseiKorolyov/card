@@ -11,7 +11,6 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
     border: none;
     border-radius: 5px;
     
-    
     &:hover {
         background: none;
         color: #4E71FE;
