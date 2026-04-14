@@ -43,7 +43,6 @@ const Card = styled.div`
 
 const ButtonBox = styled.div`
     display: flex;
-    justify-content: left;
     gap: 10px;
     height: 50px;
     width: 280px;
