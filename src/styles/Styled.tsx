@@ -3,8 +3,6 @@ import styled from "styled-components";
 
 
 export const StyledH1 = styled.h1`
-    margin: 10px;
-    text-align: left;
     font-family: Inter;
     font-weight: 700;
     font-style: Bold;

@@ -28,11 +28,6 @@ export default App
 
 
 const Card = styled.div`
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: baseline;
     border: none;
     width: 300px;
     height: 350px;
@@ -42,8 +37,6 @@ const Card = styled.div`
 `
 
 const ButtonBox = styled.div`
-    display: flex;
-    gap: 10px;
     height: 50px;
     width: 280px;
 `
